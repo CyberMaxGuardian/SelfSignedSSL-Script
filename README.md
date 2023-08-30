@@ -1,10 +1,10 @@
 # Self-Signed SSL Certificate Script
 
-This script generates a self-signed SSL certificate, merges it into a web server configuration, and creates a .p12 certificate file. The script is designed to be used in Unix-like environments and supports both nginx and apache web servers.
+Self-signed SSL certificates are used for various purposes, primarily in non-production or controlled environments. They offer encryption and secure communication similar to certificates signed by trusted Certificate Authorities (CAs), but they lack the CA's verification and validation processThis script generates a self-signed SSL certificate, merges it into a web server configuration, and creates a .p12 certificate file. The script is designed to be used in Unix-like environments and supports both nginx and apache web servers.
 
 ## Prerequisites
 
-- OpenSSL: Ensure you have OpenSSL installed on your system.
+OpenSSL: Ensure you have OpenSSL installed on your system.
 
 ## Usage
 
@@ -12,7 +12,7 @@ This script generates a self-signed SSL certificate, merges it into a web server
 
 2. Open a terminal and navigate to the directory where the script is located.
 
-3. Run the script:
+3. Run the script: ./generate_ssl_certificate.sh
 
 4. Follow the prompts to provide input for generating the certificate and configuring the web server.
 
